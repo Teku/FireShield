@@ -36,7 +36,7 @@ public final class FireShield extends JavaPlugin {
 				sender.sendMessage("This command can only be run by a player.");
 			}else{
 				Player player = (Player) sender;
-				// doSomething
+				// Start player on Fire
 				player.setFireTicks(1000);
 				// Message
 				player.sendMessage("I don't know what you expected");
