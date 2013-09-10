@@ -1,0 +1,7 @@
+name: Fire Shield
+main: co.anticraft.teku.sample.FireShield
+version: 0.1
+commands:
+  ignite:
+    description: Engulf player in flames and possibly killing them.
+    usage: "Usage: '/ignite' to set yourself ablaze."
