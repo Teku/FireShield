@@ -9,17 +9,16 @@ package co.anticraft.teku.sample;
  */
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
-//import java.util.HashMap;
 import org.bukkit.entity.Player;
-//import org.bukkit.plugin.PluginDescriptionFile;
-//import org.bukkit.plugin.PluginManager;
+import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class FireShield extends JavaPlugin {
 
 	@Override
 	public void onEnable(){
-		// Code here...
+		PluginManager pm = this.getServer().getPluginManager();
+		pm.registerEvents(new PlayerClickListener(this), this);
 		getLogger().info("FireShield loaded.");
 	}
 	
