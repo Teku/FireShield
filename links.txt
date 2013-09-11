@@ -1,0 +1,8 @@
+Get Block from ProjectileHitEvent - http://forums.bukkit.org/threads/get-block-from-projectilehitevent.171799/
+Detect nearby player, shoot arrow - https://forums.bukkit.org/threads/detect-if-player-is-around-then-shoot-arrow.161609/
+Utilize Boss healthbar - https://forums.bukkit.org/threads/tutorial-utilizing-the-boss-health-bar.158018/
+Projectile onHit - https://forums.bukkit.org/threads/solved-onprojectilehit.101715/
+Do something on Right Click - https://forums.bukkit.org/threads/do-something-when-you-right-click-a-block.61766/
+Right Click - https://forums.bukkit.org/threads/plugin-help-right-click-event.52778/
+EventAPI - http://wiki.bukkit.org/Event_API_Reference#Adding_the_listener
+Examples - http://wiki.bukkit.org/Plugin_Tutorial#Example_Files_and_Templates
